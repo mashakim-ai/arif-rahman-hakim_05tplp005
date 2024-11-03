@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<title>Absensi</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="index.html" class="brand">
+			<i class='bx bxs-smile'></i>
+			<span class="text">Hakim</span>
+		</a>
+		<ul class="side-menu top">
+			<li >
+				<a href="index.html">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="karyawan.html">
+					<i class='bx bxs-group' ></i>
+					<span class="text">Karyawan</span>
+				</a>
+			</li>
+			<li>
+				<a href="jabatan.html">
+					<i class='bx bx-user-plus' ></i>
+					<span class="text">Jabatan</span>
+				</a>
+			</li>
+			<li>
+				<a href="divisi.html">
+					<i class='bx bx-user-plus' ></i>
+					<span class="text">Divisi</span>
+				</a>
+			</li>
+			<li class="active">
+				<a href="absensi.html">
+					<i class='bx bx-calendar-check' ></i>
+					<span class="text">Absensi</span>
+				</a>
+			</li>
+			<li>
+				<a href="izin.html">
+					<i class='bx bx-calendar-plus' ></i>
+					<span class="text">Izin</span>
+				</a>
+			</li>
+			<li>
+				<a href="lembur.html">
+					<i class='bx bx-calendar-plus' ></i>
+					<span class="text">Lembur</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">....</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="#" class="notification">
+				<i class='bx bxs-bell' ></i>
+				<span class="num">8</span>
+			</a>
+			<a href="#" class="profile">
+				<img src="img/pp.jpg">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Daftar Hadir Karyawan</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						<li><i class='bx bx-chevron-right'></i></li>
+						<li>
+							<a class="active" href="#">Hadir</a>
+						</li>
+					</ul>
+				</div>
+				<a href="#" class="btn-download">
+					<i class='bx bx-plus'></i>
+					<span class="text">Tambahkan</span>
+				</a>
+			</div>
+		
+			<div class="table-responsive">
+				<table>
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Nama Karyawan</th>
+							<th>Tanggal</th>
+							<th>Lokasi Absen</th>
+							<th>Jam Masuk</th>
+							<th>Jam Keluar</th>
+							<th>Aksi</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Hakim</td>
+							<td>2024-06-10</td>
+							<td>Kapal laaout</td>
+							<td>12:16:14</td>
+							<td>18:05:22</td>
+							<td><a href="#"><i class='bx bx-show'></i></a></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Tohir</td>
+							<td>2023-06-10</td>
+							<td>dr.estes (dokter gigi)</td>
+							<td>12:00:00</td>
+							<td>18:00:00</td>
+							<td><a href="#"><i class='bx bx-show'></i></a></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Agung</td>
+							<td>2024-06-10</td>
+							<td>Rumah</td>
+							<td>12:00:00</td>
+							<td>18:00:00</td>
+							<td><a href="#"><i class='bx bx-show'></i></a></td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>M.jacky</td>
+							<td>2024-06-10</td>
+							<td>kantin bawah</td>
+							<td>12:30:00</td>
+							<td>17:30:00</td>
+							<td><a href="#"><i class='bx bx-show'></i></a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</main>
+
+	</section>
+	<!-- CONTENT -->
+	
+
+	<script src="script.js"></script>
+</body>
+</html>
